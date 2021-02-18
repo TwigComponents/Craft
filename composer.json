@@ -1,0 +1,43 @@
+{
+  "name": "twig-components/craft",
+  "description": "...",
+  "type": "craft-plugin",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "twig",
+    "component",
+    "atom",
+    "molecule"
+  ],
+  "support": {
+    "docs": "https://github.com/TwigComponents/Craft/blob/main/README.md",
+    "issues": "https://github.com/TwigComponents/Craft/issues"
+  },
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2",
+    "craftcms/cms": "^3.0.0",
+    "symfony/process": "^4.2|^5.0",
+    "twig-components/extension": "*"
+
+  },
+  "autoload": {
+    "psr-4": {
+      "TwigComponents\\Craft\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "TwigComponents",
+    "handle": "twig-components",
+    "hasCpSettings": false,
+    "hasCpSection": false,
+    "changelogUrl": "https://raw.githubusercontent.com/TwigComponents/Craft/main/CHANGELOG.md"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0",
+    "vimeo/psalm": "^4.4"
+  }
+}
